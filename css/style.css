@@ -4,3 +4,15 @@
     box-sizing: border-box;
 }
 
+.flex{
+    display: flex;
+}
+
+.smaller{
+    font-size: 0.9rem;
+}
+
+.sony_logo{
+    height: 5vh;
+    width: 100px;
+}
