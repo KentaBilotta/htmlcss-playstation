@@ -21,7 +21,7 @@
     background-image: url("/img/jumbo-bg.png");
     background-size: cover;
     background-position: center;
-    height: 85vh;
+    height: 70vh;
 }
 
 .returnal_logo{
@@ -62,11 +62,6 @@
     width: 70px;
 }
 
-.dropdown-menu{
-    background-color: green;
-    width: 500px;
-}
-
 .play-menu-drop{
     color: grey;
     text-decoration: none;
@@ -77,6 +72,10 @@
 
 .play-menu-drop:hover{
     color: rgb(59, 59, 59);
+}
+
+.play-icon{
+    width: 100px;
 }
 
 .text-grey{
@@ -93,6 +92,63 @@
     text-decoration: none;
 }
 
+.card-active{
+    border: 2px solid #0d6efd;
+}
 
+.game-card{
+    width: 100%;
+    border-radius: 20px;
+    padding: 3px;
+    margin-bottom: 20px;
+    transition: all;
+}
 
+.game-card:hover{
+    border: 2px solid #0d6efd;
+    position: relative;
+    bottom: 10px;
+    cursor: pointer;
+}
+
+.blue{
+    color: #0d6efd;
+}
+
+.play5{
+    width: 100%;
+}
+
+.card-item-img{
+    width: 90%;
+}
+
+.console-card{
+    opacity: 0.6;
+}
+
+.console-card-exc{
+    border-bottom: 2px solid #0d6efd;
+    cursor: pointer;
+}
+
+.console-card:hover{
+    opacity: 1;
+    border-bottom: 2px solid #0d6efd;
+    cursor: pointer;
+}
+
+.bg_takes_two{
+    background-image: url("/img/it-takes-two-hero-banner-desktop.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+}
+
+@media screen and (max-width: 767px) {
+    .item-name{
+        display: none;
+    }
+    
+}
 

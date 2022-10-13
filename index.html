@@ -15,12 +15,14 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous" defer></script>
   </head>
   <body>
+    <!-- header -->
     <div class="container-fluid bg-dark flex justify-content-end">
         <div class="sony_logo flex align-items-center">
             <img src="img/sony_logo.svg" alt="sony_logo">
         </div>
     </div>
 
+    <!-- navbar -->
     <nav class="navbar navbar-expand-lg bg-white">
 
         <div class="container-fluid">
@@ -48,15 +50,15 @@
                     <li class="nav-item dropdown mx-1">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Fai acquisti</a> 
                     </li>
-                    <li class="nav-item dropdown mx-1">
+                    <li class="nav-item dropdown">
                         <a class="play-menu-drop mx-1" data-bs-toggle="collapse" href="#PlayMenu" role="button" aria-expanded="false" aria-controls="PlayMenu" data-bs-toggle="dropdown" aria-expanded="false">Supporto <i class="fa-solid fa-caret-down"></i></a>
                     </li>
                 </ul>
-                <ul class="navbar-nav mb-2 mb-lg-0 smaller">
+                <ul class="navbar-nav mb-2 mb-lg-0 smaller flex flex-row">
                     <li class="nav-item dropdown">
-                        <a class="play-menu-drop mx-1" data-bs-toggle="collapse" href="#PlayMenu" role="button" aria-expanded="false" aria-controls="PlayMenu" data-bs-toggle="dropdown" aria-expanded="false">My PlayStation <i class="fa-solid fa-caret-down"></i></a>
+                        <a class="play-menu-drop mx-1 v5" data-bs-toggle="collapse" href="#PlayMenu" role="button" aria-expanded="false" aria-controls="PlayMenu" data-bs-toggle="dropdown" aria-expanded="false">My PlayStation <i class="fa-solid fa-caret-down"></i></a>
                     </li>
-                    <li class="nav-item px-2">
+                    <li class="nav-item mx-3">
                         <div class="access custom-button rounded-5 text-white">
                             <div class="smaller-button1 rounded-5">Accedi</div>
                         </div>
@@ -72,18 +74,19 @@
         </div>
     </nav>
 
+    <!-- collapse play menu -->
     <div class="container-fluid collapse multi-collapse" id="PlayMenu">
         <div class="play flex justify-content-center">
-            <div class="shadow-hover info mx-3">
-                <img src="img/play-menu-ico.png" alt="">
+            <div class="shadow-hover p-1 mx-3">
+                <img class="play-icon" src="img/play-menu-ico.png" alt="">
                 <div class="text-grey">PlayStation 5</div>
             </div>
-            <div class="shadow-hover info mx-3">
-                <img src="img/play-menu-ico.png" alt="">
+            <div class="shadow-hover p-1 mx-3">
+                <img class="play-icon" src="img/play-menu-ico.png" alt="">
                 <div class="text-grey">PlayStation 4</div>
             </div>
-            <div class="shadow-hover info mx-3">
-                <img src="img/play-menu-ico.png" alt="">
+            <div class="shadow-hover p-1 mx-3">
+                <img class="play-icon" src="img/play-menu-ico.png" alt="">
                 <div class="text-grey">PlayStation 3</div>
             </div>
         </div>
@@ -96,6 +99,7 @@
 
     </div>
 
+    <!-- jumbo -->
     <div class="bg_returnal container-fluid flex align-items-end">
         <div class="row flex-column m-3 pb-4 mb-5">
             <div class="col-10 col-sm-8 col-md-6 col-lg-4 mb-4">
@@ -103,6 +107,96 @@
             </div>
             <div class="col-10 col-lg-6 text-white fs-1 mb-4">Rompi il cerchio</div>
             <div class="col-10 col-lg-6 col-md-9 col-sm-9 text-white fs-6 mb-4">Rialzati dopo ogni sconfitta e affronta una nuova sfida con ogni rinascita in questo esplosivo thriller fantascientifico, disponibile in esclusiva su PS5.</div>
+
+            <div class="col-3">
+                <div class="buy custom-button rounded-5 text-white">
+                    <div class="smaller-button2 rounded-5">Acquista ora</div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- list -->
+    <div class="container-fluid mt-4 mb-5">
+        <div class="row">
+            <div class="col-6 col-md-4 col-lg-2">
+                <img class="game-card card-active" src="img/returnal-listing-thumb-01-ps5.jpg" alt="">
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-2">
+                <img class="game-card"src="img/ratchet-and-clank-rift-apart-keyart.jpg" alt="">
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-2">
+                <img class="game-card" src="img/returnal-listing-thumb-01-ps5.jpg" alt="">
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-2">
+                <img class="game-card" src="img/ratchet-and-clank-rift-apart-keyart.jpg" alt="">
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-2">
+                <img class="game-card" src="img/returnal-listing-thumb-01-ps5.jpg" alt="">
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-2">
+                <img class="game-card" src="img/ratchet-and-clank-rift-apart-keyart.jpg" alt="">
+            </div>
+            
+        </div>
+    </div>
+
+    <!-- PS5 Section -->
+    <div class="container-fluid">
+        <div class="row text-center">
+            <div class="fs-5 blue text-uppercase">play has no limits</div>
+            <div class="fs-1 text-capitalize">ecco la PlayStation 5</div>
+            <div class="fs-4 text-grey m-4">Tuffati in nuove possibilità di gioco completamente inaspettate</div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 col-sm-12 align-self-center">
+                <div class="col fs-1 m-3">Console PlayStation 5</div>
+                <div class="text-grey fs-4 m-3">Sperimenta la nuova generazione di incredibili giochi PlayStation</div>
+                <button type="button" class="btn btn-primary rounded-5 m-3">Maggiori informazioni</button>
+            </div>
+            <div class="col-md-6 col-sm-12">
+                <img class="play5" src="img/playstation-5-thumb.png" alt="">
+            </div>
+            <div class="row mt-5 mb-3 justify-content-around">
+                <div class="col-3 col-md-2 m-2">
+                    <img class="card-item-img" src="img/playstation-5-thumb.png" alt="">
+                    <div class="item-name fs-6 text-center p-2">Console PS5</div>
+                </div>
+                <div class="console-card col-3 col-md-2 m-2">
+                    <img class="card-item-img" src="img/joypad-thumb.png" alt="">
+                    <div class="item-name fs-6 text-center p-2">Controller Wireless DualSense</div>
+                </div>
+                <div class="console-card col-3 col-md-2 m-2">
+                    <img class="card-item-img" src="img/headset-thumb.png" alt="">
+                    <div class="item-name fs-6 text-center p-2">Cuffie Wireless con microfono PULSE 3</div>
+                </div>
+                <div class="console-card col-3 col-md-2 m-2">
+                    <img class="card-item-img" src="img/remote-thumb.png" alt="">
+                    <div class="item-name fs-6 text-center p-2">Telecomando Media</div>
+                </div>
+                <div class="console-card col-3 col-md-2 m-2">
+                    <img class="card-item-img" src="img/camera-thumb.jpg" alt="">
+                    <div class="item-name fs-6 text-center p-2">Telecamera HD</div>
+                </div>
+                
+            </div>
+        </div>
+
+    </div>
+
+    <div class="bg_takes_two container-fluid flex align-items-end">
+        <div class="row flex-column m-3 pb-4 mb-5">
+            <div class="col-10 col-sm-8 col-md-6 col-lg-4 mb-4">
+                <img class="returnal_logo" src="img/it-takes-two-logo.png" alt="returnal_logo">
+            </div>
+            <div class="col-10 col-lg-6 text-white fs-1 mb-4">Un'avventura cooperativa selvaggia ti attende</div>
+            <div class="col-10 col-lg-6 col-md-9 col-sm-9 text-white fs-6 mb-4">Trova un'amico e partite insieme per l'avventura più folle delle vostre vite in It Takes Two, un gioco d'avventura cooperativa a piattaforma che stravolge il suo genere.</div>
 
             <div class="col-3">
                 <div class="buy custom-button rounded-5 text-white">
