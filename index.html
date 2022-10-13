@@ -6,6 +6,8 @@
     <title>Playstation</title>
     <!-- style -->
     <link rel="stylesheet" href="css/style.css">
+    <!-- icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <!-- bootstrap css -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
@@ -31,31 +33,33 @@
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0 smaller">
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Giochi</a> 
+                    <li class="nav-item dropdown mx-1">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Giochi</a> 
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Hardware</a> 
+                    <li class="nav-item dropdown mx-1">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Hardware</a> 
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Servizi</a> 
+                    <li class="nav-item dropdown mx-1">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Servizi</a> 
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Novità</a> 
+                    <li class="nav-item dropdown mx-1">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Novità</a> 
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Fai acquisti</a> 
+                    <li class="nav-item dropdown mx-1">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Fai acquisti</a> 
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Supporto</a> 
+                    <li class="nav-item dropdown mx-1">
+                        <a class="play-menu-drop mx-1" data-bs-toggle="collapse" href="#PlayMenu" role="button" aria-expanded="false" aria-controls="PlayMenu" data-bs-toggle="dropdown" aria-expanded="false">Supporto <i class="fa-solid fa-caret-down"></i></a>
                     </li>
                 </ul>
                 <ul class="navbar-nav mb-2 mb-lg-0 smaller">
                     <li class="nav-item dropdown">
-                        <a href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" class="nav-link dropdown-toggle active">My PlayStation</a>
+                        <a class="play-menu-drop mx-1" data-bs-toggle="collapse" href="#PlayMenu" role="button" aria-expanded="false" aria-controls="PlayMenu" data-bs-toggle="dropdown" aria-expanded="false">My PlayStation <i class="fa-solid fa-caret-down"></i></a>
                     </li>
                     <li class="nav-item px-2">
-                        <button class="btn btn-dark rounded-4">Accedi</button>
+                        <div class="access custom-button rounded-5 text-white">
+                            <div class="smaller-button1 rounded-5">Accedi</div>
+                        </div>
                     </li>
                     <li class="nav-item p-2 ml-2">
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
@@ -68,15 +72,42 @@
         </div>
     </nav>
 
+    <div class="container-fluid collapse multi-collapse" id="PlayMenu">
+        <div class="play flex justify-content-center">
+            <div class="shadow-hover info mx-3">
+                <img src="img/play-menu-ico.png" alt="">
+                <div class="text-grey">PlayStation 5</div>
+            </div>
+            <div class="shadow-hover info mx-3">
+                <img src="img/play-menu-ico.png" alt="">
+                <div class="text-grey">PlayStation 4</div>
+            </div>
+            <div class="shadow-hover info mx-3">
+                <img src="img/play-menu-ico.png" alt="">
+                <div class="text-grey">PlayStation 3</div>
+            </div>
+        </div>
+        <hr>
+        <div class="flex justify-content-center">
+            <a class="play-link mx-3 p-3" href="#"><i class="fa-solid fa-circle-small"></i>&#x2022; Link Supporto</a>
+            <a class="play-link mx-3 p-3" href="#"><i class="fa-solid fa-circle-small"></i>&#x2022; Link Supporto</a>
+            <a class="play-link mx-3 p-3" href="#"><i class="fa-solid fa-circle-small"></i>&#x2022; Link Supporto</a>
+        </div>
+
+    </div>
+
     <div class="bg_returnal container-fluid flex align-items-end">
-        <div class="row flex-column m-3 pb-4">
+        <div class="row flex-column m-3 pb-4 mb-5">
             <div class="col-10 col-sm-8 col-md-6 col-lg-4 mb-4">
                 <img class="returnal_logo" src="img/returnal-hero-banner-logo.png" alt="returnal_logo">
             </div>
             <div class="col-10 col-lg-6 text-white fs-1 mb-4">Rompi il cerchio</div>
             <div class="col-10 col-lg-6 col-md-9 col-sm-9 text-white fs-6 mb-4">Rialzati dopo ogni sconfitta e affronta una nuova sfida con ogni rinascita in questo esplosivo thriller fantascientifico, disponibile in esclusiva su PS5.</div>
-            <div class="buy">
-                <button class="btn btn-danger rounded-5 mt-3">Acquista ora</button>
+
+            <div class="col-3">
+                <div class="buy custom-button rounded-5 text-white">
+                    <div class="smaller-button2 rounded-5">Acquista ora</div>
+                </div>
             </div>
         </div>
 
