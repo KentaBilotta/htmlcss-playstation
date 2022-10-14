@@ -12,7 +12,7 @@
 }
 
 .bg_returnal{
-    background-image: url("/img/jumbo-bg.png");
+    background-image: url("../img/jumbo-bg.png");
     background-size: cover;
     background-position: center;
     height: 70vh;
@@ -128,7 +128,7 @@
 }
 
 .bg_takes_two{
-    background-image: url("/img/it-takes-two-hero-banner-desktop.jpg");
+    background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
     background-size: cover;
     background-position: center;
 }
